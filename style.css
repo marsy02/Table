@@ -1,0 +1,61 @@
+body{
+    background: rgb(224,151,14);    
+    background: linear-gradient(90deg, rgba(224,151,14,1) 50%, rgba(255,0,52,1) 56%);
+}
+table {
+    border-collapse: collapse;
+    margin: 36px auto;
+    text-align: center;
+    border-spacing: unset;
+    box-shadow: 0px 2px 15px -1px  black;
+    font-weight:unset;
+    font-size: medium;
+    width: 30cm;
+    height: 16cm;
+    table-layout: fixed; 
+}
+
+table tr:hover td {
+    font-weight: bolder;
+    background-color: rgb(223, 223, 223); 
+    color: rgb(0, 0, 0); 
+}
+table, th,td{
+    
+    border: 1px solid rgba(77, 76, 76, 0.33);
+     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 10px;
+}
+p {
+    font-size: larger;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+table td{
+    background-color:#94dffc;
+}
+.class-color1 {
+background-color: rgb(69, 130, 245); 
+color: white
+}
+.class-lb td{
+    background-color: rgb(163, 224, 244);
+}
+table th{
+
+    background-color: rgb(250, 250, 250);
+}
+.class-yellow td{
+    background-color: yellow;
+
+}
+.class-white td{
+background-color: white;
+}
+
+.student-information{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    font-size: 25px;
+    text-align: center;
+}
+
